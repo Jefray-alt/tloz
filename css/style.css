@@ -521,3 +521,14 @@ ion-icon {
     order: 3;
   }
 }
+
+@media only screen and (max-width: 550px) {
+  .item-1 {
+    flex-direction: column;
+  }
+
+  .item-1 .sub-items {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
